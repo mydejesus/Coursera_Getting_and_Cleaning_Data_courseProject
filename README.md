@@ -16,6 +16,7 @@
 5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 ## Working on the Project
+###### Note:  library(plyr) is required to run the code
 1. The first 3 lines of the code dowloads and unzips the files.  It will also create a 'data' folder in your working directory
 2. Put run_analysis.R in the parent folder of UCI HAR Dataset, then set it as your working directory using setwd() function in RStudio.
 3. Run source("run_analysis.R"), then it will generate a new file tiny_data.txt in your working directory.
